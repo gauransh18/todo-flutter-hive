@@ -1,7 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:todo_hive/homepage.dart';
+import 'package:hive_flutter/hive_flutter.dart';
+import 'package:todo_hive/pages/homepage.dart';
 
-void main() {
+void main() async {
+
+  Hive.initFlutter();
+
+  var box = await Hive.openBox("todo");
+
   runApp(const MyApp());
 }
 
@@ -15,7 +21,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.blue,
-        // colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
         // useMaterial3: true,
       ),
       home: HomePage(),
