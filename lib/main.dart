@@ -4,7 +4,7 @@ import 'package:todo_hive/pages/homepage.dart';
 
 void main() async {
 
-  Hive.initFlutter();
+  await Hive.initFlutter();
 
   var box = await Hive.openBox("todo");
 
