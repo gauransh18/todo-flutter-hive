@@ -1,16 +1,7 @@
 # todo_hive
 
-A new Flutter project.
+A To-Do List app made with flutter and hive database.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+https://github.com/gauransh18/todo-flutter-hive/assets/66783709/00def743-4bf0-4c40-b2c8-0ab856fb92d2
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
